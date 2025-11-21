@@ -32,7 +32,8 @@
             </div>
         </section>
         <div>
-        <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/partlyCloudy.jpg?raw=true" class="article-img">
+        <img id="mainWeatherImg" src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/partlyCloudy.jpg?raw=true" class="article-img">
+
         </div>
     </div>
     <hr>
@@ -43,56 +44,38 @@
 
   
             <div class="flex-col">
-                <p>Day 1</p>
-                <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/overcast.jpg?raw=true">
-                <span id="dayTitle2" class="col-head"></span> 
-                <img id="weatherIcon2" class="weatherIcon" />
-                <span> <span id="data1"></span> 
-                <span><strong>74°F</strong></span> </span> 
-            </div>
+    <p id="dayTitle1"></p>
+    <img id="weatherIcon1" class="weatherIcon">
+    <span><strong id="temp1"></strong>°F</span>
+</div>
 
- 
-            <div class="flex-col">
-                <p>Day 2</p>
-                 <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Sunny.jpg?raw=true">
-                <span id="dayTitle2" class="col-head"></span> 
-                <img id="weatherIcon2" class="weatherIcon" />
-                <span class="temp-data"> <span id="data1"></span> 
-                <span><strong>71°F</strong></span> </span> 
-            </div>
+<div class="flex-col">
+    <p id="dayTitle2"></p>
+    <img id="weatherIcon2" class="weatherIcon">
+    <span><strong id="temp2"></strong>°F</span>
+</div>
 
-         
-            <div class="flex-col">
-                <p>Day 3</p>
-                 <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Sunny.jpg?raw=true">
-                <span id="dayTitle3" class="col-head"></span> 
-                <img id="weatherIcon3" class="weatherIcon" />
-                <span class="temp-data"> <span id="data1"></span> 
-                <span><strong>75°F</strong></span> </span>
-            </div>
+<div class="flex-col">
+    <p id="dayTitle3"></p>
+    <img id="weatherIcon3" class="weatherIcon">
+    <span><strong id="temp3"></strong>°F</span>
+</div>
 
-        
-            <div class="flex-col">
-                <p>Day 4 </p>
-                 <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Sunny.jpg?raw=true">
-                <span id="dayTitle4" class="col-head"></span> 
-                <img id="weatherIcon4" class="weatherIcon" />
-                <span class="temp-data"> <span id="data1"></span> 
-                <span><strong>78°F</strong></span> </span> 
-            </div> 
+<div class="flex-col">
+    <p id="dayTitle4"></p>
+    <img id="weatherIcon4" class="weatherIcon">
+    <span><strong id="temp4"></strong>°F</span>
+</div>
 
-       
-            <div class="flex-col">
-                 <p>Day 5</p>
-                 <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Sunny.jpg?raw=true">
-                <span id="dayTitle5" class="col-head"></span> 
-                <img id="weatherIcon5" class="weatherIcon" />
-                <span class="temp-data"> <span id="data1"></span> 
-                <span><strong>80°F</strong></span> </span> 
-            </div>
+<div class="flex-col">
+    <p id="dayTitle5"></p>
+    <img id="weatherIcon5" class="weatherIcon">
+    <span><strong id="temp5"></strong>°F</span>
+</div>
 </div>
 </article>
 </article>
+<script src="weather-header.js"></script>
 </body>
 <hr>
 <footer>
@@ -102,4 +85,5 @@
             last updated:Thru. Augest 28 2025   
     </p>
 </footer>
+
 </html>
